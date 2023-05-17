@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="titulo">
-        <h1>PaginaAllan</h1>
-    </header>
+    <header>
+        <h1 id="tituloprincipal">PaginaAllan</h1>
+        <nav class="menu">
+          <ul class="menu-items">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+        <h2 id="h2">acerca:</h2>
+      </header>
     <section id="section">
         <div id="divallan">
             <article class="informacionAllan">
-                <h2>biografia</h2>
                 <p>soy este</p>
                 <img src="img/logo.png" width="200">
                 <p>naci siendo asi</p>
                 <a target="_blank" href="https://www.instagram.com/cletangana">Insta</a>
+                <div class="musica">
+                    <br> musica que le gusta:
+                    <ul>
+                        <li style="list-style-position: inside;">Ctangana</li> 
+                        <li style="list-style-position: inside;">Corridos mexicanos</li>
+                        <li style="list-style-position: inside;">Miranda</li>
+                    </ul>
+                </div>
             </article>
         </div>
         <div id="divsara">
@@ -28,14 +44,21 @@
                 <img src="img/mono.png" width="200">
                 <p>nacio siendo asi</p>
                 <a target="_blank" href="https://www.instagram.com/haplesswig">Insta</a>
+                <div class="musica">
+                    <br> musica que le gusta:
+                    <ul>
+                        <li style="list-style-position: inside;">imagine dragons</li> 
+                        <li style="list-style-position: inside;">kpop</li>
+                        <li style="list-style-position: inside;">tiktok</li>
+                    </ul>
+                </div>
             </article>
         </div>
     </section>
     <footer>
-        <a href="#titulo">volver al Inicio</a>
-        <a href="mailto:allan.vallejos13@gmail.com">Contacto</a>
-        <p>propiedad de Allan</p>
-        <p>ejaleee</p>
+        <a class="a1" href="#titulo">volver al Inicio</a>
+        <a class="a1" href="mailto:allan.vallejos13@gmail.com">Contacto</a>
+        <p id="propiedad">propiedad de Allan</p>
     </footer>
 </body>
 </html>
