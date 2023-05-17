@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(img/fondoregistro.png);
+}
+
+.formregistro{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    box-shadow: 7px 7px 15px #000000;
+}
+.formregistro h4{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.control{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.formregistro p{
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.formregistro a{
+    color:white;
+    text-decoration: none;
+}
+
+.formregistro a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formregistro .botons{
+    width: 100%;
+    background-color: #1f53c5;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    background-color: black;
+    color:white
+  }
+  #tituloprincipal {
+    display: flex;
+    align-items: center;
+  }
+  
+  #tituloprincipal h1 {
+    margin: 0;
+    margin-right: auto;
+  }
+  
+  .menu {
+    display: flex;
+    float:inline-end;
+  }
+  
+  .menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu-items li {
+    margin-left: 10px;
+  }
+  
+  .menu-items a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #menuu {
+    margin-left: auto;
+  }
+
