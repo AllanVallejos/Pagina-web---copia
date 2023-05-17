@@ -38,7 +38,6 @@
   #divallan {
     background-color: yellow;
     border: 2px solid black;
-    border-radius: 20px;
     margin: 0px auto;
     float: left;
     width: 50%;
@@ -48,7 +47,6 @@
   #divsara {
     background-color: pink;
     border: 2px solid black;
-    border-radius: 20px;
     margin: 0px auto;
     float: right;
     width: 50%;
@@ -128,12 +126,9 @@
     padding-right: 10px;
   }
   
-  body {
-    margin: 0;
-    padding: 0; /* Agregar padding cero al body */
-  }
   
   /* Ajustar el margen izquierdo del menú */
   header {
     margin-left: 0;
+    size:100vh;
   }
