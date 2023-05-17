@@ -98,37 +98,41 @@
     font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
-  .menu {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+  .menu{
+    background-color: grey;
+  }
+  #tituloprincipal {
+    display: flex;
+    align-items: center;
+  }
+  
+  #tituloprincipal h1 {
     margin: 0;
-    size: 100%;
+    margin-right: auto;
+  }
+  
+  .menu {
+    display: flex;
+    float:inline-end;
   }
   
   .menu-items {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: flex;
-
   }
   
   .menu-items li {
-    margin-right: 10px;
+    margin-left: 10px;
   }
   
   .menu-items a {
     color: white;
     text-decoration: none;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
-  
-  
-  /* Ajustar el margen izquierdo del menú */
-  header {
-    margin-left: 0;
-    size:100vh;
+
+  #menuu {
+    margin-left: auto;
   }
+
